@@ -65,13 +65,13 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    for_teachers_subtitle4: "Automatic Differentiation"
 #    for_teachers_subblurb4: "Engage all learners in a diverse classroom with practice levels that adapt to each student's learning needs."
 #    game_based_blurb: "CodeCombat is a game-based computer science program where students type real code and see their characters react in real time."
-#    get_started: "Get started"
+    get_started: "시작하기"
     global_title: "저희의 세계적인 선생님과 학생 커뮤니티에 참여하세요"
     global_subtitle1: "학생들"
     global_subtitle2: "작성된 코드 줄"
     global_subtitle3: "선생님들"
     global_subtitle4: "국가들"
-#    go_to_my_classes: "Go to my classes"
+    go_to_my_classes: "내 교실로 가기"
 #    go_to_my_courses: "Go to my courses"
 #    quotes_quote1: "Name any program online, I’ve tried it. None of them match up to CodeCombat. Any teacher who wants their students to learn how to code... start here!"
 #    quotes_quote2: " I was surprised about how easy and intuitive CodeCombat makes learning computer science. The scores on the AP exam were much higher than I expected and I believe CodeCombat is the reason why this was the case."
@@ -79,14 +79,14 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    quotes_quote4: "The feedback … has been so positive that we are structuring a computer science class around CodeCombat. The program really engages the students with a gaming style platform that is entertaining and instructional at the same time. Keep up the good work, CodeCombat!"
     see_example: "예제 보기"
     slogan: "코딩을 배우는 가장 매력적인 방법!" # {change}
-#    teach_cs1_free: "Teach CS1 Free"
+    teach_cs1_free: "무료로 cs1 가르치기"
 #    teachers_love_codecombat_title: "Teachers Love CodeCombat"
 #    teachers_love_codecombat_blurb1: "Report that their students enjoy using CodeCombat to learn how to code"
 #    teachers_love_codecombat_blurb2: "Would recommend CodeCombat to other computer science teachers"
 #    teachers_love_codecombat_blurb3: "Say that CodeCombat helps them support students’ problem solving abilities"
 #    teachers_love_codecombat_subblurb: "In partnership with McREL International, a leader in research-based guidance and evaluations of educational technology."
-#    try_the_game: "Try the game"
-#    classroom_edition: "Classroom Edition:"
+    try_the_game: "게임 해보기:"
+    classroom_edition: "교실 에디션:"
     learn_to_code: "코딩 배우기:"
     play_now: "지금 시작하기"
     im_an_educator: "교사입니다"
@@ -189,7 +189,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     support: "지원"
     faqs: "자주 묻는 질문"
     copyright_prefix: "저작권(Copyright)"
-#    copyright_suffix: "All Rights Reserved."
+    copyright_suffix: "에 권리 있음."
     help_pref: "도움이 필요하신가요? 이메일을 보내주세요."
     help_suff: "저희가 도와드리겠습니다."
 #    resource_hub: "Resource Hub"
@@ -267,7 +267,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     teacher_button: "교사용"
     get_more_codecombat: "CodeCombat을 더 알아보기"
 
-#  code:
+  code:
 #    if: "if" # Keywords--these translations show up on hover, so please translate them all, even if it's kind of long. (In the code editor, they will still be in English.)
 #    else: "else"
 #    elif: "else if"
@@ -275,7 +275,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    loop: "loop"
 #    for: "for"
 #    break: "break"
-#    continue: "continue"
+    continue: "계속하기"
 #    pass: "pass"
 #    return: "return"
 #    then: "then"
@@ -285,7 +285,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    def: "define"
 #    var: "variable"
 #    self: "self"
-#    hero: "hero"
+    hero: "영웅"
 #    this: "this"
 #    or: "or"
 #    "||": "or"
@@ -757,8 +757,8 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     number: "Number"
     webjavascript: "JavaScript"
 
-#  amazon_hoc:
-#    title: "Keep Learning with Amazon!"
+  amazon_hoc:
+    title: "아마존과 함께 배우세요!"
 #    congrats: "Congratulations on conquering that challenging Hour of Code!"
 #    educate_1: "Now, keep learning about coding and cloud computing with AWS Educate, an exciting, free program from Amazon for both students and teachers. With AWS Educate, you can earn cool badges as you learn about the basics of the cloud and cutting-edge technologies such as gaming, virtual reality, and Alexa."
 #    educate_2: "Learn more and sign up here"
@@ -812,8 +812,8 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     damage_dealt: "죽음을 맞은 데미지"
     difficulty: "난이도"
     gold_collected: "수집된 골드"
-#    survival_time: "Survived"
-#    defeated: "Enemies Defeated"
+    survival_time: "생존한 시간"
+    defeated: "처치한 적"
 #    code_length: "Lines of Code"
 #    score_display: "__scoreType__: __score__"
 
@@ -848,8 +848,8 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     purchase: "구매하기"
     purchased: "구매함"
 
-#  subscribe_for_gems:
-#    prompt_title: "Not Enough Gems!"
+  subscribe_for_gems:
+    prompt_title: "젬이 부족합니다!"
 #    prompt_body: "Subscribe to Premium to get gems and access to even more levels!"
 
   earn_gems:
@@ -1007,12 +1007,12 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
     level_to_unlock: "레벨 해금:" # Label for which level you have to beat to unlock a particular hero (click a locked hero in the store to see)
     restricted_to_certain_heroes: "특정 영웅만이 이 레벨을 플레이할 수 있습니다."
 
-#  char_customization_modal:
-#    heading: "Customize Your Hero"
-#    body: "Body"
-#    name_label: "Hero's Name"
-#    hair_label: "Hair Color"
-#    skin_label: "Skin Color"
+  char_customization_modal:
+    heading: "여러분의 영웅을 꾸미세요!"
+    body: "몸"
+    name_label: "영웅의 이름"
+    hair_label: "머리 색"
+    skin_label: "스킨 색"
 
   skill_docs:
 #    function: "function" # skill types
@@ -1066,7 +1066,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
   about:
 #    title: "About CodeCombat - Engaging Students, Empowering Teachers, Inspiring Creation"
 #    meta_description: "Our mission is to level computer science through game-based learning and make coding accessible to every learner. We believe programming is magic and want learners to be empowered to to create things from pure imagination."
-#    learn_more: "Learn More"
+    learn_more: "더 알아보기"
     main_title: "프로그래밍을 배우고 싶다면 많은 코드를 작성해 보아야 합니다."
     main_description: "CodeCombat에서 우리의 임무는 당신이 미소를 짓고 있는지 확인하는 것입니다."
     mission_link: "미션"
@@ -1076,7 +1076,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    mission_title: "Our mission: make programming accessible to every student on Earth."
 #    mission_description_1: "<strong>Programming is magic</strong>. It's the ability to create things from pure imagination. We started CodeCombat to give learners the feeling of wizardly power at their fingertips by using <strong>typed code</strong>."
 #    mission_description_2: "As it turns out, that enables them to learn faster too. WAY faster. It's like having a conversation instead of reading a manual. We want to bring that conversation to every school and to <strong>every student</strong>, because everyone should have the chance to learn the magic of programming."
-#    team_title: "Meet the CodeCombat team"
+    team_title: "CodeCombat 팀 만나기"
 #    team_values: "We value open and respectful dialog, where the best idea wins. Our decisions are grounded in customer research and our process is focused on delivering tangible results for them. Everyone is hands-on, from our CEO to our GitHub contributors, because we value growth and learning in our team."
     nick_title: "프로그래머" # {change}
     matt_title: "프로그래머" # {change}
@@ -1103,7 +1103,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    daniela_title: "Marketing Manager"
 #    chelsea_title: "Operations Manager"
 #    claire_title: "Executive Assistant"
-#    bobby_title: "Game Designer"
+    bobby_title: "게임 디자이너"
 #    brian_title: "Lead Game Designer"
 #    andrew_title: "Software Engineer"
 #    stephanie_title: "Customer Support Specialist"
@@ -1153,9 +1153,9 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    screenshots_title: "Game Screenshots"
 #    screenshots_hint: "(click to view full size)"
 #    downloads_title: "Download Assets & Information"
-#    about_codecombat: "About CodeCombat"
-#    logo: "Logo"
-#    screenshots: "Screenshots"
+    about_codecombat: "codecombat에 대해"
+    logo: "로고"
+    screenshots: "스크린샷"
 #    character_art: "Character Art"
 #    download_all: "Download All"
 #    previous: "Previous"
@@ -2505,7 +2505,7 @@ module.exports = nativeDescription: "한국어", englishDescription: "Korean", t
 #    systems: "Systems"
 #    component: "Component"
 #    components: "Components"
-#    hero: "Hero"
+    hero: "영웅"
 #    campaigns: "Campaigns"
 
 #  concepts:
